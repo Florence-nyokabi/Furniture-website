@@ -1,0 +1,97 @@
+.container-nav{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    
+}
+.heading-name{
+    font-family: Arial, Helvetica, sans-serif;
+}
+.navigation-bar  li{
+    display:inline-block;
+    list-style-type: none;
+    padding: 10px 12px;
+}
+.sign-in-button{
+    background-color: black;
+    color:white;
+}
+.minimal-section{
+    font-size: xx-large;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+.ordinary-furniture{
+    display: flex;
+    flex-direction: row;
+    justify-content:space-between;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.armchair-section{
+    display: flex;
+    flex-direction: row;
+    justify-content:space-between;
+}
+.get-started{
+    background-color: black;
+    color: white;
+}
+.our-advantages-heading{
+    text-align: center;
+    font-size: xx-large;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.our-advantages{
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.recommended-for-you{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: larger;
+}
+.recommended-for-you p1{
+    font-size:medium;
+}
+.explore-more{
+    background-color: black;
+    color: white;
+}
+.best-collection-paragraph{
+    text-align: center;
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: xx-large;
+}
+.best-collection{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.best-collection-interior-paragraph{
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+.subscribe{
+    font-family:Arial, Helvetica, sans-serif;
+}
+.view-all-button{
+    background-color: black;
+    color: white;
+    margin-left: 46%;
+}
+.footer-div{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.footer-div li{
+    display:inline-block;
+    list-style-type: none;
+}
