@@ -1,5 +1,6 @@
 body{
     margin: auto;
+    background-color: antiquewhite;
 }
 .container-nav{
     display: flex;
@@ -9,50 +10,92 @@ body{
 }
 .heading-name{
     font-family: Arial, Helvetica, sans-serif;
+    margin-bottom: -1%;
+}
+.heading-name h3{
+    font-size: 200%;
 }
 .navigation-bar  li{
     display:inline-block;
     list-style-type: none;
     padding: 10px 12px;
+    font-size: 150%;
 }
 .sign-in-button{
     background-color: black;
     color:white;
+    border-radius: 7px;
+    /* width: 10%;
+    height: 35%; */
+   
 }
 .minimal-section{
-    font-size: xx-large;
+    font-size: 600%;
     text-align: center;
     font-family: Arial, Helvetica, sans-serif;
-    margin-left: -30%;
+    margin-left: -10%;
 }
 .ordinary-furniture{
     display: flex;
     flex-direction: row;
-    /* justify-content:space-between; */
+    justify-content:nospace-between;
     font-family: Arial, Helvetica, sans-serif;
+}
+.images-ordinary{
+    height: 400px;
+    width: 400px;
+    border-radius: 10px;
+}
+.my-section{
+    margin-left: 30px;
 }
 .ordinary-furniture-paragraph{
     margin-left: 30px;
+    font-size: 200%;
 }
 .armchair-section{
     display: flex;
     flex-direction: row;
-    justify-content:space-between;
+    justify-content:nospace-between;
+}
+.armchair0{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.armchair1{
+    margin-left: 25px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.armchair-images{
+    width: 100px;
+    height: 100px;
+    margin-left: 30px;
+    border-radius: 10%;
+}
+.armchair-section p{
+    font-size: 150%;
 }
 .get-started{
     background-color: black;
     color: white;
+    height: 6%;
+    width: 18%;
 }
 .our-advantages-heading{
     text-align: center;
     font-size: xx-large;
     font-family: Arial, Helvetica, sans-serif;
+    font-size: 300%;
 }
 .our-advantages{
     display:flex;
     flex-direction: row;
     justify-content: space-between;
     font-family: Arial, Helvetica, sans-serif;
+    font-size: 200%;
 }
 .recommended-for-you{
     display: flex;
@@ -60,9 +103,14 @@ body{
     justify-content: space-between;
     font-family: Arial, Helvetica, sans-serif;
     font-size: larger;
+    font-size: 150%;
 }
 .recommended-for-you p1{
     font-size:medium;
+    font-size: 100%;
+}
+.adv{
+    background-color: white;
 }
 .overlap-container{
     display: flex;  
@@ -72,27 +120,32 @@ body{
     top: -80%;
     width: 300px;
     height: 300px;
+    border-radius: 10%;
 }
 .overlapping2{
     margin-left: 50%;
     top: -60%;
     width: 300px;
     height: 300px;
+    border-radius: 10%;
 }
 .overlapping3{
     margin-left: 50%;
     top: -60%;
     width: 300px;
     height: 300px;
+    border-radius: 10%;
 }
 .explore-more{
     background-color: black;
     color: white;
+    height: 10%;
+    width: 36%;
 }
 .best-collection-paragraph{
     text-align: center;
     font-family:Arial, Helvetica, sans-serif;
-    font-size: xx-large;
+    font-size: 300%;
 }
 .best-collection{
     display: flex;
@@ -100,10 +153,13 @@ body{
     justify-content: space-between;
     font-family: Arial, Helvetica, sans-serif;
 }
+.best-collection p{
+    font-size: 150%;
+}
 .best-collection-interior-paragraph{
     text-align: center;
     font-family: Arial, Helvetica, sans-serif;
-    
+    font-size: 300%;
 }
 .interior-images{
     display: flex;
@@ -111,16 +167,42 @@ body{
     justify-content: space-between;
    
 }
+.interior-interior-images{
+    display: flex;
+    flex-direction: row;
+    justify-content:nospace-between;
+    margin-left: 25%;
+}
 .subscribe{
     font-family:Arial, Helvetica, sans-serif;
-    background-image: url(images/couch18.jpg);
-    background-size: auto;
-    background-repeat: repeat;
+    margin-left: 22%;
+    margin-top: -30%;
+    margin-bottom:500px; 
+}
+.subscribe p{
+    font-size: 200%;
+}
+.subscribe-image{
+    width: 80%;
+    margin-left: 10%;
+    margin-right: -20%;
+    padding: 20px 20px;
+}
+.input{
+    padding: 25px;
+}
+.subscribe-button{
+    margin-left: -10%;
+    padding: 9px;
+    background-color: black;
+    color: white;
 }
 .view-all-button{
     background-color: black;
     color: white;
     margin-left: 46%;
+    height: 40%;
+    width: 10%;
 }
 .footer-div{
     display: flex;
@@ -130,12 +212,21 @@ body{
 .footer-div li{
     display:inline-block;
     list-style-type: none;
+    font-size: 120%;
+}
+.footer-div h5{
+    font-size: 150%;
+}
+.footer-div p{
+    font-size: 120%;
 }
 .images{
-    height: 200px;
-    width: 200px;
+    height: 300px;
+    width: 300px;
+    border-radius: 10px;
 }
 .image1{
     height: 500px;
     width: 600px;
+    border-radius: 10px;
 }
