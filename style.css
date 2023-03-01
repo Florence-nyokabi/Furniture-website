@@ -1,3 +1,6 @@
+body{
+    margin: auto;
+}
 .container-nav{
     display: flex;
     flex-direction: row;
@@ -65,8 +68,8 @@
     display: flex;  
 }
 .overlapping1{
-    margin-left: 50%;
-    top: -60%;
+    margin-left: 80%;
+    top: -80%;
     width: 300px;
     height: 300px;
 }
