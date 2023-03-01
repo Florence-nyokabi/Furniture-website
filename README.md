@@ -1,0 +1,1 @@
+# Minimal furniture landing page
